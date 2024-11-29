@@ -9,14 +9,16 @@
 </head>
 <body>
 <h1>Cadastro usuário</h1>
-    <h:form>
+    <h:form class="center">
         <h:outputLabel value="Nome: " />
         <h:inputText value="#{pessoa.nome}" />
-        <h:commandButton value="Adicionar" action="#{pessoa.adicionarNomes}" />
+        <h:commandButton value="Adicionar" action="#{pessoa.adicionarNomes}" class="botao"/>
     </h:form>
-
-    <h:dataTable value="#{pessoa.listaNomes}" var="nome">
-        <h:column>
+    
+    
+	<h2 class="center"> Usuarios</h2>
+    <h:dataTable value="#{pessoa.listaNomes}" var="nome" class="center">
+        <h:column class="column">
             <h:outputText value="#{nome}" />
         </h:column>
     </h:dataTable>

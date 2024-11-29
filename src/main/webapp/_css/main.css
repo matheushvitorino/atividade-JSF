@@ -1,4 +1,31 @@
-.body{
-	justify-content:center;
-	align-items:center;
+h1{
+	width:30%;
+	background-color:black;
+	color:white;
+	border-radius: 20px;
+	text-align:center;
+	margin-left:35%;
+	margin-right:35%;	
+}
+.center{
+	width:30%;
+	text-align:center;
+	margin-left:35%;
+	margin-right:35%;
+	
+}
+
+.botao{
+	margin-left:5px;
+	color:white;
+	background-color:green;
+	border: 1px solid black;
+	border-radius:30px;
+	padding:10px;
+	
+}
+
+
+.column{
+	border: 1px solid black;
 }
